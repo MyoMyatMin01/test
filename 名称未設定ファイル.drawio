@@ -1,0 +1,313 @@
+<mxfile host="app.diagrams.net" modified="2023-03-28T15:26:50.128Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="vTA4tjB7JUEGzDbKxONq" version="21.1.1" type="github">
+  <diagram name="ページ1" id="TSPjG_MD7Exyud7VwNXA">
+    <mxGraphModel dx="3844" dy="3925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qr4-akAKEW-FLx3u67vr-1" value="ApplianceInfo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="330" width="190" height="268" as="geometry" />
+        </mxCell>
+        <mxCell id="qr4-akAKEW-FLx3u67vr-2" value="&lt;div&gt;+ ID: int&lt;/div&gt;&lt;div&gt;+ Name: string&lt;/div&gt;&lt;div&gt;+ ItemType: string&lt;/div&gt;&lt;div&gt;+ EnergyConsumptionkWh: float&lt;/div&gt;&lt;div&gt;+ Brand: string&lt;/div&gt;&lt;div&gt;+ Model: string&lt;/div&gt;&lt;div&gt;+ Dimensions: string&lt;/div&gt;&lt;div&gt;+ Color: string&lt;/div&gt;&lt;div&gt;+ MonthlyFeeDollar: float&lt;/div&gt;&lt;div&gt;+ RegistID: int?&lt;/div&gt;&lt;div&gt;+ RegistDateTime: string&lt;/div&gt;&lt;div&gt;+ UpdateDateTime: string&lt;/div&gt;&lt;div&gt;+ ImagePath: string&lt;/div&gt;&lt;div&gt;+ DelFlg: int?&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="qr4-akAKEW-FLx3u67vr-1" vertex="1">
+          <mxGeometry y="26" width="190" height="214" as="geometry" />
+        </mxCell>
+        <mxCell id="qr4-akAKEW-FLx3u67vr-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="qr4-akAKEW-FLx3u67vr-1" vertex="1">
+          <mxGeometry y="240" width="190" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="7t6EDk9AcnXzHwJCvfNj-1" value="UserInfo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="330" width="190" height="198" as="geometry" />
+        </mxCell>
+        <mxCell id="7t6EDk9AcnXzHwJCvfNj-2" value="&lt;div&gt;+ ID: int&lt;/div&gt;&lt;div&gt;+ UserName: string&lt;/div&gt;&lt;div&gt;+ Password: string&lt;/div&gt;&lt;div&gt;+ Email: string&lt;/div&gt;&lt;div&gt;+ Phone: string&lt;/div&gt;&lt;div&gt;+ Address: string&lt;/div&gt;&lt;div&gt;+ RegistDateTime: string&lt;/div&gt;&lt;div&gt;+ IsRoleAdmin: bool&lt;/div&gt;&lt;div&gt;+ DelFlg: int?&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="7t6EDk9AcnXzHwJCvfNj-1" vertex="1">
+          <mxGeometry y="26" width="190" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="7t6EDk9AcnXzHwJCvfNj-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="7t6EDk9AcnXzHwJCvfNj-1" vertex="1">
+          <mxGeometry y="170" width="190" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-1" value="RentInfo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="330" width="190" height="218" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-2" value="&lt;div&gt;+ ApplianceID: int&lt;/div&gt;&lt;div&gt;+ UserID: int&lt;/div&gt;&lt;div&gt;+ ApplianceName: string&lt;/div&gt;&lt;div&gt;+ ItemType: string&lt;/div&gt;&lt;div&gt;+ MonthlyFeeDollar: float&lt;/div&gt;&lt;div&gt;+ Quantity: int&lt;/div&gt;&lt;div&gt;+ RentalMonth: int&lt;/div&gt;&lt;div&gt;+ StartDateTime: string&lt;/div&gt;&lt;div&gt;+ DueDateTime: string&lt;/div&gt;&lt;div&gt;+ TotalPrice: float&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-1">
+          <mxGeometry y="26" width="190" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-1">
+          <mxGeometry y="190" width="190" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-4" value="BaseDao" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="-397" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-5" value="_ _connectionString: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-4">
+          <mxGeometry y="26" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-4">
+          <mxGeometry y="52" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-7" value="# ReadApplianceDataFromDB(): ApplianceInfo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-4">
+          <mxGeometry y="60" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-8" value="AddApplianceDao" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="-86" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-9" value="&amp;nbsp;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-8">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-8">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-11" value="+ AddApplianceInfo(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-8">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-12" value="UpdateApplianceDao" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="-240" width="190" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-13" value="&amp;nbsp;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-12">
+          <mxGeometry y="26" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-14" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-12">
+          <mxGeometry y="52" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-15" value="+ UpdateApplianceInfo(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-12">
+          <mxGeometry y="60" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-16" value="DeleteApplianceDao" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-380" width="190" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-17" value="&amp;nbsp; &amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-16">
+          <mxGeometry y="26" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-18" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-16">
+          <mxGeometry y="52" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-19" value="+ DeleteApplianceInfo(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-16">
+          <mxGeometry y="60" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-20" value="GetApplianceInfoDao" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="-630" width="220" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-21" value="&amp;nbsp;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-20">
+          <mxGeometry y="26" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-22" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-20">
+          <mxGeometry y="52" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-23" value="+ GetApplianceInfo(): ApplianceInfo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-20">
+          <mxGeometry y="60" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-28" value="GetAppliancesDao" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="-870" width="330" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-29" value="&amp;nbsp;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-28">
+          <mxGeometry y="26" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-30" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-28">
+          <mxGeometry y="52" width="330" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-31" value="&lt;div&gt;+ GetAppliances(): List&amp;lt;ApplianceInfo&amp;gt;&lt;/div&gt;&lt;div&gt;- GetAppliancesWithFilters(): List&amp;lt;ApplianceInfo&amp;gt;&lt;/div&gt;&lt;div&gt;- GetAppliancesEnergyConsumption(): List&amp;lt;ApplianceInfo&amp;gt;&lt;/div&gt;&lt;div&gt;- GetAppliancesMonthlyFee(): List&amp;lt;ApplianceInfo&amp;gt;&lt;/div&gt;&lt;div&gt;- GetAppliancesID(): List&amp;lt;ApplianceInfo&amp;gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-28">
+          <mxGeometry y="60" width="330" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-34" value="AddApplianceProcess" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="-60" width="240" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-35" value="&amp;nbsp;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-34">
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-36" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-34">
+          <mxGeometry y="52" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-37" value="+ ExecuteAddApplianceOperation(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-34">
+          <mxGeometry y="60" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-38" value="UpdateApplianceProcess" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="-210" width="290" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-39" value="&amp;nbsp;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-38">
+          <mxGeometry y="26" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-40" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-38">
+          <mxGeometry y="52" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-41" value="+ ExecuteUpdateApplianceInfoOperation(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-38">
+          <mxGeometry y="60" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-42" value="DeleteApplianceProcess" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="-380" width="260" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-43" value="&amp;nbsp; &amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-42">
+          <mxGeometry y="26" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-44" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-42">
+          <mxGeometry y="52" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-45" value="+ ExecuteDeleteApplianceOperation(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-42">
+          <mxGeometry y="60" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-46" value="GetApplianceInfoProcess" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-720" width="270" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-47" value="&amp;nbsp;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-46">
+          <mxGeometry y="26" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-48" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-46">
+          <mxGeometry y="52" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-49" value="+ ExecuteGetApplianceInfoOperation(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-46">
+          <mxGeometry y="60" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-50" value="GetAppliancesProcess" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="-910" width="340" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-51" value="&amp;nbsp;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-50">
+          <mxGeometry y="26" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-52" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-50">
+          <mxGeometry y="52" width="340" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-53" value="+ ExecuteGetAppliancesOperation(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-50">
+          <mxGeometry y="60" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-54" value="BaseProcessor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="-410" width="300" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-55" value="&lt;div&gt;_ _loginID: string&lt;/div&gt;&lt;div&gt;_ _objMsgDel: delegate&lt;/div&gt;&lt;div&gt;_ _objEnableControl: delegate&lt;/div&gt;&lt;div&gt;_ _objAppliancesResultDel: delegate&lt;/div&gt;&lt;div&gt;_ _objAppliancesResultListDel: delegate&lt;/div&gt;&lt;div&gt;_ _objRentAppliancesResultListDel: delegate&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-54">
+          <mxGeometry y="26" width="300" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-56" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-54">
+          <mxGeometry y="130" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-57" value="+ SetDelegate(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-54">
+          <mxGeometry y="138" width="300" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-58" value="AuthenticationDao" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="40" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-59" value="&amp;nbsp;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-58">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-60" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-58">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-61" value="+ Login(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-58">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-62" value="CustomerRegistrationDao" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="-500" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-63" value="&amp;nbsp;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-62">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-64" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-62">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-65" value="+ RegisterUserInfo(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-62">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-66" value="CustomerRegistrationProcess" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="-560" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-67" value="&amp;nbsp;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-66">
+          <mxGeometry y="26" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-68" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-66">
+          <mxGeometry y="52" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-69" value="&lt;div&gt;+ ExecuteRegisterUserOperation(): void&lt;/div&gt;&lt;div&gt;- IsUserNameAlreadyUsed(): bool&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-66">
+          <mxGeometry y="60" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-70" value="AdminLoginProcess" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="100" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-71" value="&lt;div&gt;_ _loginFailedAttempts: int&lt;/div&gt;&lt;div&gt;_ _isAllowedSpecifyDateTime: bool&lt;/div&gt;&lt;div&gt;_ _attemptValidDateTime: DateTime?&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-70">
+          <mxGeometry y="26" width="260" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-72" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-70">
+          <mxGeometry y="90" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-73" value="&lt;div&gt;+ ExecuteLoginOperation(): void&lt;/div&gt;&lt;div&gt;- HandleLoginFailedAttempt(): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-70">
+          <mxGeometry y="98" width="260" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-75" value="CustomerRegistrationForm" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="405" width="340" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-76" value="- _registProcess: CustomerRegistrationProcess" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-75">
+          <mxGeometry y="26" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-77" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-75">
+          <mxGeometry y="52" width="340" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-78" value="&lt;div&gt;- RegisterCustomer(): void&lt;/div&gt;&lt;div&gt;- ChangeCustomUIDesign(): void&lt;/div&gt;&lt;div&gt;- GetRegisterUserData(): UserInfo&lt;/div&gt;&lt;div&gt;- CheckValidationOfUpdateInputData(): bool&lt;/div&gt;&lt;div&gt;- EnableDisableFormControls(): void&lt;/div&gt;&lt;div&gt;- ShowCustomMessageBox(): bool&lt;/div&gt;&lt;div&gt;- ClearResult(): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-75">
+          <mxGeometry y="60" width="340" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-79" value="CustomerMainForm" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="-1090" width="340" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-80" value="&lt;div&gt;- _getAppliancesProcess: GetAppliancesProcess&lt;/div&gt;&lt;div&gt;- _applianceID: int&lt;/div&gt;&lt;div&gt;- _sortKeyValue: string&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-79">
+          <mxGeometry y="26" width="340" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-81" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-79">
+          <mxGeometry y="90" width="340" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-82" value="&lt;div&gt;- ChangeCustomUIDesign(): void&lt;/div&gt;&lt;div&gt;- LoadApplianceData(): void&lt;/div&gt;&lt;div&gt;- EnableDisableFormControls(): void&lt;/div&gt;&lt;div&gt;- DisplayResult(): void&lt;/div&gt;&lt;div&gt;- ChangeDataGridViewHeaders(): void&lt;/div&gt;&lt;div&gt;- HideIDColumn(): void&lt;/div&gt;&lt;div&gt;- ShowCustomMessageBox(): DialogResult&lt;/div&gt;&lt;div&gt;- GetSortKeyValue(): void&lt;/div&gt;&lt;div&gt;- GetInputData(): void&lt;/div&gt;&lt;div&gt;- SeedingSortKeys(): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-79">
+          <mxGeometry y="98" width="340" height="172" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-83" value="LoginForm" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="-770" width="340" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-84" value="&lt;div&gt;- _adminLoginProcess: AdminLoginProcess&lt;/div&gt;&lt;div&gt;- _applianceID: int&lt;/div&gt;&lt;div&gt;- _sortKeyValue: string&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-83">
+          <mxGeometry y="26" width="340" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-85" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-83">
+          <mxGeometry y="90" width="340" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-86" value="&lt;div&gt;- LoginOperation(): void&lt;/div&gt;&lt;div&gt;- ChangeCustomUIDesign(): void&lt;/div&gt;&lt;div&gt;- CheckValidationOfInputData(): bool&lt;/div&gt;&lt;div&gt;- EnableDisableFormControls(): void&lt;/div&gt;&lt;div&gt;- ShowCustomMessageBox(): DialogResult&lt;/div&gt;&lt;div&gt;- GetLoginInputData(): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-83">
+          <mxGeometry y="98" width="340" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-87" value="RentForm" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="-510" width="340" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-88" value="&lt;div&gt;- _getApplianceInfo: GetApplianceInfoProcess&lt;/div&gt;&lt;div&gt;- _rentApplianceInfo: RentApplianceProcess&lt;/div&gt;&lt;div&gt;- _applianceID: int&lt;/div&gt;&lt;div&gt;- _rentalMonthPeriod: int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-87">
+          <mxGeometry y="26" width="340" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-89" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-87">
+          <mxGeometry y="100" width="340" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-90" value="&lt;div&gt;- CalculateTotalPrice(): void&lt;/div&gt;&lt;div&gt;- ChangeCustomUIDesign(): void&lt;/div&gt;&lt;div&gt;- GetRentData(): RentInfo&lt;/div&gt;&lt;div&gt;- CheckValidationOfInputData(): bool&lt;/div&gt;&lt;div&gt;- GetRentalMonthValue(): void&lt;/div&gt;&lt;div&gt;- GetLoginInputData(): void&lt;/div&gt;&lt;div&gt;- EnableDisableFormControls(): void&lt;/div&gt;&lt;div&gt;- ClearResult(): void&lt;/div&gt;&lt;div&gt;- ShowCustomMessageBox(): DialogResult&lt;/div&gt;&lt;div&gt;- DisplayApplianceInfo(): void&lt;/div&gt;&lt;div&gt;- DisplayRentApplianceInfo(): void&lt;/div&gt;&lt;div&gt;- ChangeDataGridViewHeaders(): void&lt;/div&gt;&lt;div&gt;- ChangeColumnWith(): void&lt;/div&gt;&lt;div&gt;- HideIDColumn(): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-87">
+          <mxGeometry y="108" width="340" height="222" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-91" value="RentReportForm" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="-124" width="340" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-92" value="- _rentApplianceInfo: RentApplianceProcess" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-91">
+          <mxGeometry y="26" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-93" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-91">
+          <mxGeometry y="52" width="340" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-94" value="&lt;div&gt;- ChangeCustomUIDesign(): void&lt;/div&gt;&lt;div&gt;- ShowCustomMessageBox(): DialogResult&lt;/div&gt;&lt;div&gt;- EnableDisableFormControls(): void&lt;/div&gt;&lt;div&gt;- DisplayRentApplianceInfo(): void&lt;/div&gt;&lt;div&gt;- ChangeDataGridViewHeaders(): void&lt;/div&gt;&lt;div&gt;- ChangeColumnWith(): void&lt;/div&gt;&lt;div&gt;- HideIDColumn(): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-91">
+          <mxGeometry y="60" width="340" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-95" value="UpdateApplianceForm" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="130" width="340" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-96" value="&lt;div&gt;- _getApplianceInfo: GetApplianceInfoProcess&lt;/div&gt;&lt;div&gt;- _updateProcess: UpdateApplianceProcess&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-95">
+          <mxGeometry y="26" width="340" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-97" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-95">
+          <mxGeometry y="70" width="340" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-98" value="&lt;div&gt;- BrowseImage(): void&lt;/div&gt;&lt;div&gt;- UpdateOperation(): DialogResult&lt;/div&gt;&lt;div&gt;- ChangeCustomUIDesign(): void&lt;/div&gt;&lt;div&gt;- GetUpdateData(): ApplianceInfo&lt;/div&gt;&lt;div&gt;- CheckValidationOfUpdateInputData(): bool&lt;/div&gt;&lt;div&gt;- EnableDisableFormControls(): void&lt;/div&gt;&lt;div&gt;- ClearResult(): void&lt;/div&gt;&lt;div&gt;- ShowCustomMessageBox(): bool&lt;/div&gt;&lt;div&gt;- DisplayResult(): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-95">
+          <mxGeometry y="78" width="340" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-99" value="AdminMainForm" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="-1450" width="340" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-100" value="&lt;div&gt;- _getAppliancesProcess: GetAppliancesProcess&lt;/div&gt;&lt;div&gt;- _deleteProcess: DeleteApplianceProcess&lt;/div&gt;&lt;div&gt;- _applianceID: int&lt;/div&gt;&lt;div&gt;- _sortKeyValue: string&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-99">
+          <mxGeometry y="26" width="340" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-101" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-99">
+          <mxGeometry y="100" width="340" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uJElE-q9c6I4hpZ1LM59-102" value="&lt;div&gt;- ChangeCustomUIDesign(): void&lt;/div&gt;&lt;div&gt;- GetDeleteData(): void&lt;/div&gt;&lt;div&gt;- LoadApplianceData(): void&lt;/div&gt;&lt;div&gt;- CheckValidationOfDeleteInputData(): bool&lt;/div&gt;&lt;div&gt;- EnableDisableFormControls(): void&lt;/div&gt;&lt;div&gt;- DisplayResult(): void&lt;/div&gt;&lt;div&gt;- ChangeDataGridViewHeaders(): void&lt;/div&gt;&lt;div&gt;- HideIDColumn(): void&lt;/div&gt;&lt;div&gt;- ShowCustomMessageBox(): DialogResult&lt;/div&gt;&lt;div&gt;- GetSortKeyValue(): void&lt;/div&gt;&lt;div&gt;- GetInputData(): void&lt;/div&gt;&lt;div&gt;- SeedingSortKeys(): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uJElE-q9c6I4hpZ1LM59-99">
+          <mxGeometry y="108" width="340" height="192" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
